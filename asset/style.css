@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(17, 5, 243);
+    color: rgb(249, 251, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/** parte 1 **/
+
+.triatlon {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    margin: 40px;
+}
+
+#btnImg {
+    height: 50vh;
+}
+
+/** parte 2 **/
+
+.title-stickers, h1, h2, p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.stickers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+input{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+button {
+
+   background-color: black;
+   color: aliceblue;
+   height: 300;
+   width:60px;
+   height:60px;
+   border-radius: 15%;
+  
+
+}
+
+
+/** tercera parte **/
+.password {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    height: 40px;
+    
+}
+
